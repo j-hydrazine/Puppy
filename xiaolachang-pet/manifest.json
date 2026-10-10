@@ -1,0 +1,146 @@
+{
+  "name": "小腊肠",
+  "sprite_version": 2,
+  "spritesheet": {
+    "file": "assets/spritesheet.png",
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208,
+    "mode": "RGBA",
+    "used_frames": 73,
+    "animation_frames": 57,
+    "look_frames": 16,
+    "default_frame": {
+      "row": 0,
+      "column": 0
+    }
+  },
+  "animations": [
+    {
+      "state": "idle",
+      "row": 0,
+      "frames": 6,
+      "first_column": 0
+    },
+    {
+      "state": "running-right",
+      "row": 1,
+      "frames": 8,
+      "first_column": 0
+    },
+    {
+      "state": "running-left",
+      "row": 2,
+      "frames": 8,
+      "first_column": 0
+    },
+    {
+      "state": "waving",
+      "row": 3,
+      "frames": 4,
+      "first_column": 0
+    },
+    {
+      "state": "jumping",
+      "row": 4,
+      "frames": 5,
+      "first_column": 0
+    },
+    {
+      "state": "failed",
+      "row": 5,
+      "frames": 8,
+      "first_column": 0
+    },
+    {
+      "state": "waiting",
+      "row": 6,
+      "frames": 6,
+      "first_column": 0
+    },
+    {
+      "state": "running",
+      "row": 7,
+      "frames": 6,
+      "first_column": 0
+    },
+    {
+      "state": "review",
+      "row": 8,
+      "frames": 6,
+      "first_column": 0
+    }
+  ],
+  "look_directions": {
+    "coordinate_system": "screen",
+    "order": "clockwise",
+    "zero_degrees": "up",
+    "rows": [
+      {
+        "row": 9,
+        "angles_degrees": [
+          0,
+          22.5,
+          45,
+          67.5,
+          90,
+          112.5,
+          135,
+          157.5
+        ]
+      },
+      {
+        "row": 10,
+        "angles_degrees": [
+          180,
+          202.5,
+          225,
+          247.5,
+          270,
+          292.5,
+          315,
+          337.5
+        ]
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2265,
+      "sha256": "19ef9e619c482db691c7b42634a00bafd4538f31df038ca064dd63111b740c74"
+    },
+    {
+      "path": "assets/canonical.png",
+      "bytes": 2233059,
+      "sha256": "6a683158f51e977706040cfd2dbf5f1d980f76b0a8b65badd85e7838e00c1109",
+      "width": 1108,
+      "height": 1420,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/default-avatar.png",
+      "bytes": 43982,
+      "sha256": "7267200a49561074efe33c4871f8d808478cd1242c7c3b680ac8e6f6fefe06d2",
+      "width": 192,
+      "height": 208,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/spritesheet.png",
+      "bytes": 2871606,
+      "sha256": "8445463fb2d6b2cc734b1d95c67af0ea0ff8ffdcb803aa579cefaf5efaf6d5a7",
+      "width": 1536,
+      "height": 2288,
+      "mode": "RGBA"
+    },
+    {
+      "path": "previews/all-states.mp4",
+      "bytes": 1109122,
+      "sha256": "b596c7cb296b85dc7e8fcdcb00a1e438275c10a50d10ed23ae08ff558dd84403"
+    }
+  ]
+}
